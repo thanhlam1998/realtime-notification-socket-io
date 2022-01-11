@@ -7,7 +7,7 @@
   "scripts": {
     "install": "npx lerna bootstrap",
     "dev:fe": "lerna run dev --scope=client --stream",
-    "dev:be": "lerna run dev --scope=server --stream",
+    "dev:be": "lerna run dev --scope=socket --stream",
     "dev": "lerna run dev --stream"
   }
 }
